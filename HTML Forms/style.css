@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "epilogue", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-left {
+  padding: 20px;
+}
+
+.nav-right {
+  padding: 30px;
+}
+
+nav img {
+  width: 250px;
+  height: auto;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(219, 169, 41);
+  color: black;
+}
+
+.banner h1 {
+  padding: 35px;
+}
+
+.banner p {
+  padding: 25px;
+  width: 60%;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.banner a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px 14px;
+}
+
+.packages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 5px 80px;
+}
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 30px 0;
+  border: 1px solid rgb(219, 169, 41);
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.plans img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#group {
+  width: 295px;
+  height: auto;
+}
+
+#lion {
+  width: 370px;
+  height: auto;
+}
+
+.plans h3 {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.plans p {
+  padding: 20px;
+  text-align: center;
+  width: 65%;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#price {
+  font-weight: 400;
+}
+
+.plans button {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(4, 189, 189);
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 10px;
+  background-color: rgb(219, 169, 41);
+  font-size: 12px;
+}
+
+#logoContact {
+  width: 250px;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.formNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  background-color: rgb(219, 169, 41);
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 325px;
+}
+
+select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+}
+
+input[type="submit"] {
+  padding: 7px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.contact {
+  margin-top: 197px;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
