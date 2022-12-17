@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Movie Club</h1>
+    </header>
+    <main>
+      <form action="">
+        <div>
+          <p>Please enter your information below:</p>
+          <br />
+          <label for="name">Enter your name:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="John Doe"
+            name="name"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Enter your Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="John.Doe123@mail.com"
+            name="email"
+            required
+          />
+        </div>
+        <div>
+          <label for="message">Send us a message:</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="23"
+            rows="4"
+            placeholder="Tell us how you feel!"
+          ></textarea>
+        </div>
+        <div>
+          <label for="level">What's your favorite genre?</label>
+          <select name="level" id="level" name="level" required>
+            <option value="" disabled selected>Select your choice</option>
+            <option value="action">Action</option>
+            <option value="horror">Horror</option>
+            <option value="triller">Triller</option>
+            <option value="adventure">Adventure</option>
+            <option value="scifi">Scifi</option>
+            <option value="comedy">Comedy</option>
+            <option value="romance">Romance</option>
+            <option value="indie">Indie</option>
+          </select>
+        </div>
+        <input id="btn" type="submit" />
+      </form>
+    </main>
+  </body>
+</html>
